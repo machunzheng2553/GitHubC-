@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C++ 学习助手</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1>🚀 C++ 学习助手</h1>
+      <p>一个帮助你系统学习 C++ 基础知识与刷题的小应用。</p>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h2>📚 学习路线</h2>
+        <ol id="roadmap"></ol>
+      </section>
+
+      <section class="card">
+        <h2>🧠 概念卡片</h2>
+        <div id="flashcard" class="flashcard">
+          <h3 id="flashcard-title"></h3>
+          <p id="flashcard-content"></p>
+        </div>
+        <button id="next-card" class="btn">下一张</button>
+      </section>
+
+      <section class="card">
+        <h2>✅ 每日小测</h2>
+        <p id="quiz-question"></p>
+        <div id="quiz-options" class="options"></div>
+        <p id="quiz-feedback" class="feedback"></p>
+      </section>
+
+      <section class="card">
+        <h2>💡 学习建议</h2>
+        <ul>
+          <li>每天学习 30~60 分钟，优先保证连续性。</li>
+          <li>每学一个语法点，写一个最小可运行示例。</li>
+          <li>每周至少完成 3 道算法题并复盘。</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <small>Made for C++ learners · Keep coding every day!</small>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
